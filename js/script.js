@@ -39,7 +39,6 @@ themeButton.addEventListener("click", () => {
 console.log("THEME SETTING IS WORKING !");
 
 // ========== MENU SHOW Y HIDDEN ========== //
-
 const navMenu = document.getElementById("nav-menu");
 const navToggle = document.getElementById("nav-toggle");
 const navClose = document.getElementById("nav-close");
