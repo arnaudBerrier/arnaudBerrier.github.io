@@ -7,3 +7,22 @@ Main
     Portfolio
     Contact us
 footer
+
+Skills
+card ---> software Skills
+card -> Designs
+
+Timeline Designs
+
+Education    Experience
+
+line - date
+card - title
+       institute
+       details - unfolded
+
+Portfolio
+
+___________
+
+<   >
