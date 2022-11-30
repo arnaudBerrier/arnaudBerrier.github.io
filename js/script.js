@@ -85,4 +85,4 @@ new Typewriter('#typewriter', {
   loop: true,
   cursor: "|"
 });
-console.log("Typewriter effect is working !");
+console.log("Typewriter effect is working !"); 
