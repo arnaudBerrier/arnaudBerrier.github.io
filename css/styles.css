@@ -5,10 +5,10 @@
 
     /* ============ COLORS ================ */
         /* DECIDE YOUR BROWSER THEME */
-    --hue-color: 250;  /* GREEN: 144,  Blue: 230, Purple: 250, Pink: 340 */
+    --hue-color: 225;  /* GREEN: 144,  Blue: 230, Purple: 250, Pink: 340 */
 
         /* HSL Color Mode */
-    --first-color: hsl(var(--hue-color), 69%, 58%);
+    --first-color: hsl(225, 100%, 56%);
     --first-color-second: hsl(var(--hue-color), 71%, 47%);
     --first-color-alt: hsl(var(--hue-color), 55%, 50%);
     --first-color-lighter: hsl(var(--hue-color), 90%, 82%);
@@ -22,7 +22,6 @@
     --container-color: #FFF;
     --scroll-bar-color: hsl(var(--hue-color), 15%, 85%);
     --scroll-thumb-color: hsl(var(--hue-color), 15%, 70%);
-    --gradient-color: linear-gradient(140deg, rgba(93,72,199,1) 0%, rgba(94,91,201,1) 40%, rgba(101,125,157,1) 100%);
 
     /*  ================ FONT AND TYPOGRAPHY ============== */
     --gullible-font: 'Maven Pro', sans-serif;
@@ -107,7 +106,7 @@ body.dark-theme{
     --background-body-color: rgba(255, 255, 255, 0.068);
     --border-color: rgba(255, 255, 255, 0.425);
     --border-style: solid;
-    --footer-color: hsl(250, 53%, 18%);
+    --footer-color: hsl(225, 53%, 18%);
 }
 .dark-theme img.inverse {
     filter :invert(100%)
@@ -571,7 +570,6 @@ img{
     padding-bottom: var(--mb-0-75);
     margin: auto;
     margin-bottom: var(--mb-2);
-
 }
 
 .skills__container-card:hover {
@@ -600,7 +598,7 @@ img{
     left: 0;
     width: 100%;
     height: 100%;
-    background: var(--first-color-lighter);
+    background: var(--first-color-light);
     clip-path: circle(100px at 80% 20%);
     transition: 0.5s ease-in-out;
 }
@@ -668,12 +666,12 @@ img{
 
 .shadow2{
     box-shadow:
-  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 12.5px 10px rgba(0, 0, 0, 0.06),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-  0 100px 80px rgba(0, 0, 0, 0.12)
+  0 2.8px 2.2px rgba(40, 23, 126, 0.034),
+  0 6.7px 5.3px rgba(40, 23, 126, 0.048),
+  0 12.5px 10px rgba(40, 23, 126, 0.06),
+  0 22.3px 17.9px rgba(40, 23, 126, 0.072),
+  0 41.8px 33.4px rgba(40, 23, 126, 0.086),
+  0 100px 80px rgba(40, 23, 126, 0.12)
 ;
 }
 
@@ -731,6 +729,7 @@ img{
 .qualification__title {
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
+    color: #062744;
 }
 
 .qualification__subtitle{
@@ -798,6 +797,7 @@ img{
     width: 14px;
     height: 14px;
     margin-top: var(--mb-0-5);
+    margin-bottom: var(--mb-2);
     justify-content: flex-end;
     background-color: transparent;
     border-radius: auto;
@@ -1245,6 +1245,9 @@ img{
       margin-right: var(--mb-1-5);
       column-gap: var(--mb-1);
     }
+    #myLinkedIn1{
+      margin-left: var(--mb-2);
+    }
     .footer__social{
       margin: var(--mb-0-5);
     }
@@ -1483,7 +1486,7 @@ img{
       }
   
       .about__description{
-        text-align: initial;
+        /* text-align: initial; */
       }
   
       /* .about__info{
