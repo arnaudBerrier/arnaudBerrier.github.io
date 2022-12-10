@@ -1,7 +1,5 @@
 
 
-
-
 // ========== DARK THEME ========== //
 
 const themeButton = document.getElementById("theme-button");
