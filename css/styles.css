@@ -1317,7 +1317,7 @@ img{
       /* ===================== MEDIA QUERIES ================== */
   
     /* Small Screen */
-    @media screen and (max-width: 350px){
+    @media screen and (min-width: 300px){
       .container{
         margin-left: var(--mb-0-25);
         margin-right: var(--mb-1);
@@ -1345,6 +1345,10 @@ img{
   
       .about{
         margin-top: 6rem;
+        margin-right: var(--mb-1-5);
+      }
+      .skills {
+        margin-right: var(--mb-1-5);
       }
       .qualification__data{
         gap: 0.5rem;
@@ -1352,6 +1356,9 @@ img{
   
       .contact_mail{
         margin-left: var(--mb-1-5);
+      }
+      .contact-form {
+        margin-right: var(--mb-1-5);
       }
   
       ::-webkit-scrollbar{
@@ -1483,15 +1490,7 @@ img{
       .about__img{
         width: 350px;
       }
-  
-      .about__description{
-        /* text-align: initial; */
-      }
-  
-      /* .about__info{
-        justify-content: space-between;
-      } */
-  
+
       .about__buttons{
         justify-content: center;
       }
